@@ -10,7 +10,7 @@ export const fareportalGroup = new CheckGroupV2("fareportal-monitors", {
   activated: true,
   muted: false,
   frequency: Frequency.EVERY_15M,
-  locations: ["us-east-1", "eu-west-1"],
+  locations: ["us-east-1"],
   tags: ["fareportal", "cheapoair"],
   alertEscalationPolicy: AlertEscalationBuilder.runBasedEscalation(2),
   alertChannels: [emailChannel],
