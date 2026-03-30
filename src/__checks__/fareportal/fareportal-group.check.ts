@@ -6,7 +6,7 @@ import {
 import { emailChannel } from "../utils/alert-channels";
 
 export const fareportalGroup = new CheckGroupV2("fareportal-monitors", {
-  name: "Fareportal UI Example Monitors",
+  name: "Example - Fareportal UI Monitors",
   activated: true,
   muted: false,
   frequency: Frequency.EVERY_15M,

@@ -5,7 +5,7 @@ import { emailChannel } from './alert-channels'
 // monitors. Read more about group configuration at: https://www.checklyhq.com/docs/groups/
 
 export const syntheticGroup = new CheckGroupV2('check-group-synthetics', {
-  name: 'Synthetic Monitors Group',
+  name: 'Example - Synthetic Monitors Group',
   activated: true,
   muted: false,
   frequency: Frequency.EVERY_15M,
@@ -23,7 +23,7 @@ export const syntheticGroup = new CheckGroupV2('check-group-synthetics', {
 })
 
 export const uptimeGroup = new CheckGroupV2('check-group-uptime', {
-  name: 'Uptime Monitors Group',
+  name: 'Example - Uptime Monitors Group',
   muted: false,
   frequency: Frequency.EVERY_15M,
   tags: ['uptime'],
