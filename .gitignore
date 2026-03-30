@@ -1,0 +1,26 @@
+node_modules
+.DS_Store
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+blob-report/
+.auth/
+
+# Screenshots captured during test runs
+screenshots-on-failure/screenshots/
+
+# Environment and secrets
+.env
+.env.*
+
+# Claude / AI tooling
+.claude/
+.agents/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Checkly local state
+skills-lock.json
